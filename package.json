@@ -1,0 +1,39 @@
+{
+  "name": "kanal34-news-portal",
+  "version": "1.0.0",
+  "description": "A modern, responsive news portal built with Next.js 14, TypeScript, and React",
+  "private": true,
+  "scripts": {
+    "dev": "cd gun20 && npm run dev",
+    "build": "cd gun20 && npm run build",
+    "start": "cd gun20 && npm run start",
+    "lint": "cd gun20 && npm run lint",
+    "install-deps": "cd gun20 && npm install"
+  },
+  "keywords": [
+    "news",
+    "portal",
+    "nextjs",
+    "react",
+    "typescript",
+    "responsive",
+    "modern",
+    "turkey",
+    "haber",
+    "kanal34"
+  ],
+  "author": "Kanal 34 Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/kanal34.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/kanal34/issues"
+  },
+  "homepage": "https://github.com/yourusername/kanal34#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "id": "1", "title": "İstanbul’da Kültür ve Turizm Haberciliği İçin Yeni Adım", "summary": "Kültür ve Turizm Bakanlığı, Basın Elçileri Projesi’ni başlattı. Proje detayları ve hedefleri açıklandı.", "image": "/logo.png", "date": "19 Şubat 2025", "category": "kultur" },
+  { "id": "2", "title": "Türk Dünyası Belgesel Film Festivali Başvuruları Başladı", "summary": "Türk Dünyası Gazeteciler Federasyonu öncülüğünde düzenlenen festival için başvurular açıldı.", "image": "/logo.png", "date": "18 Şubat 2025", "category": "film" },
+  { "id": "3", "title": "UBK 2025 Yol Haritasını Belirledi", "summary": "Uluslararası Basın Konfederasyonu, 2025 yılı için yeni dönem stratejilerini açıkladı.", "image": "/logo.png", "date": "8 Şubat 2025", "category": "gundem" },
+  { "id": "4", "title": "İstanbul Valiliği’nden Sakarya İlkokulu açıklaması", "summary": "İstanbul Valiliği, Ataşehir’deki Sakarya İlkokulu ile ilgili açıklama yaptı.", "image": "/logo.png", "date": "8 Şubat 2025", "category": "gundem" }
+]
