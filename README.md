@@ -225,12 +225,6 @@ This project is open source and available under the [MIT License](LICENSE).
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact
-
-- **Project**: Kanal 34 News Portal
-- **Developer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
@@ -240,5 +234,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - All contributors and testers
 
 ---
-
-**Made with ❤️ using Next.js, React, and TypeScript**
