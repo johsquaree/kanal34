@@ -41,7 +41,6 @@ export default function RootLayout({
           }
         `}</style>
         
-        {/* CNN Türk tarzı header tasarımı */}
         <header style={{ 
           display: 'flex', 
           alignItems: 'center', 
@@ -55,9 +54,7 @@ export default function RootLayout({
           top: 0, 
           zIndex: 10 
         }}>
-          {/* Sol taraf - Menü ikonu ve logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-            {/* Hamburger menü ikonu */}
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column', 
@@ -72,7 +69,6 @@ export default function RootLayout({
               <div style={{ width: 18, height: 2, background: '#666' }}></div>
             </div>
             
-            {/* Kanal 34 Logo */}
             <div style={{ 
               background: '#e53935', 
               padding: '8px 16px', 
@@ -110,7 +106,6 @@ export default function RootLayout({
             </div>
           </div>
 
-          {/* Orta - Navigasyon menüsü */}
           <nav style={{ 
             display: 'flex', 
             gap: 32, 
@@ -186,7 +181,6 @@ export default function RootLayout({
             }}>Resmi İlanlar</a>
           </nav>
 
-          {/* Sağ taraf - Canlı Yayın butonu */}
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <a href="/live" style={{ 
               background: '#e53935', 
