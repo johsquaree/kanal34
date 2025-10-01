@@ -16,13 +16,11 @@ export default function Home() {
       minHeight: '100vh',
       fontFamily: 'Inter, Arial, sans-serif'
     }}>
-      {/* Ana Sayfa Layout */}
       <div style={{ 
         maxWidth: 1200, 
         margin: '0 auto',
         padding: '20px'
       }}>
-        {/* Kırmızı Alt Çizgi */}
         <div style={{ 
           width: '100%', 
           height: 3, 
@@ -30,7 +28,6 @@ export default function Home() {
           margin: '32px 0 24px 0' 
         }} />
 
-        {/* Kategoriler */}
         <div style={{ 
           display: 'flex', 
           justifyContent: 'center', 
@@ -59,7 +56,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Haber Grid */}
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(3, 1fr)',
@@ -80,7 +76,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* İçerik Alanı */}
         <div style={{ 
           textAlign: 'center',
           padding: '40px 20px'
@@ -100,72 +95,6 @@ export default function Home() {
           }}>
             Haber Portalı
           </p>
-          <div style={{ 
-            background: '#f8f9fa',
-            padding: '40px',
-            borderRadius: '12px',
-            border: '2px dashed #ddd'
-          }}>
-            <h2 style={{ 
-              fontSize: 20, 
-              fontWeight: 600,
-              margin: '0 0 16px 0',
-              color: '#333'
-            }}>
-              Gün 7: Haber Kartları Bileşeni
-            </h2>
-            <p style={{ 
-              fontSize: 16, 
-              color: '#666',
-              margin: '0 0 20px 0'
-            }}>
-              Haber kartları bileşeni oluşturuldu. 3 sütunlu grid layout ile haberler görüntüleniyor.
-            </p>
-            <div style={{ 
-              background: '#e8f5e8',
-              padding: '16px',
-              borderRadius: '8px',
-              border: '1px solid #4caf50'
-            }}>
-              <strong style={{ color: '#2e7d32' }}>✅ Tamamlanan Özellikler:</strong>
-              <ul style={{ 
-                textAlign: 'left', 
-                margin: '10px 0 0 0',
-                paddingLeft: '20px',
-                color: '#2e7d32'
-              }}>
-                <li>NewsCard bileşeni oluşturuldu</li>
-                <li>3 sütunlu grid layout</li>
-                <li>Hover efektleri (yükselme ve gölge)</li>
-                <li>Kategori filtreleme sistemi</li>
-                <li>Responsive tasarım</li>
-                <li>Link entegrasyonu (Devamını Oku)</li>
-                <li>TypeScript tip güvenliği</li>
-              </ul>
-            </div>
-            <div style={{ 
-              background: '#fff3cd',
-              padding: '16px',
-              borderRadius: '8px',
-              border: '1px solid #ffc107',
-              marginTop: '16px'
-            }}>
-              <strong style={{ color: '#856404' }}>🎨 Kart Tasarım Özellikleri:</strong>
-              <ul style={{ 
-                textAlign: 'left', 
-                margin: '10px 0 0 0',
-                paddingLeft: '20px',
-                color: '#856404'
-              }}>
-                <li><strong>Görsel:</strong> 400x200px, cover object-fit</li>
-                <li><strong>Başlık:</strong> 22px, bold, 700 weight</li>
-                <li><strong>Özet:</strong> 15px, 1.5 line-height</li>
-                <li><strong>Kategori:</strong> Badge tasarımı</li>
-                <li><strong>Tarih:</strong> 14px, gri renk</li>
-                <li><strong>Hover:</strong> Yükselme ve gölge efekti</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </div>
