@@ -1,0 +1,25 @@
+{
+  "name": "kanal34-news-portal",
+  "version": "1.0.0",
+  "description": "A modern, responsive news portal built with Next.js 14, TypeScript, and React",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "9.35.0",
+    "eslint-config-next": "15.5.3",
+    "typescript": "^5.8.3"
+  }
+}
